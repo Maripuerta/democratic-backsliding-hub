@@ -1,0 +1,156 @@
+{
+  "countries": [
+    {
+      "name": "Argentina",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Bolivia",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Brazil",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Chile",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Colombia",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Costa Rica",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Cuba",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Dominican Republic",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Ecuador",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "El Salvador",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Guatemala",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Honduras",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Mexico",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Nicaragua",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Panama",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Paraguay",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Peru",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Uruguay",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    },
+    {
+      "name": "Venezuela",
+      "v_dem_polyarchy_indicator": null,
+      "v_dem_libdem_indicator": null,
+      "ert_episodes": [],
+      "bti_score": null,
+      "deed_event_data": []
+    }
+  ]
+}
