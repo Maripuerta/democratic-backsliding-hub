@@ -1,0 +1,175 @@
+{
+  "countries": [
+    {
+      "name": "Argentina",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Bolivia",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Brazil",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Chile",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Colombia",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Costa Rica",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Cuba",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Dominican Republic",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Ecuador",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "El Salvador",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Guatemala",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Honduras",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Mexico",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Nicaragua",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Panama",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Paraguay",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Peru",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Uruguay",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    },
+    {
+      "name": "Venezuela",
+      "V-Dem_polyarchy_index": null,
+      "libdem_index": null,
+      "ERT_episodes": [],
+      "BTI_governance_score": null,
+      "DEED_event_counts": 0,
+      "status_indicator": null
+    }
+  ]
+}
