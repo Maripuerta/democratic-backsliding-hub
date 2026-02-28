@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Methodology — Democratic Backsliding Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ── Methodology-specific styles ── */
+    .method-content {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--gray-700);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      padding: 0.4rem 0.75rem;
+      border: 1.5px solid var(--gray-200);
+      border-radius: 6px;
+      background: var(--white);
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .back-link:hover { background: var(--gray-100); border-color: var(--gray-700); }
+
+    .method-hero {
+      margin-bottom: 2.5rem;
+    }
+    .method-hero h2 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: 0.6rem;
+      color: var(--gray-900);
+    }
+    .method-hero p {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--gray-700);
+      max-width: 680px;
+    }
+
+    .method-toc {
+      background: var(--gray-100);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    .method-toc h3 {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      font-weight: 700;
+      color: var(--gray-700);
+      margin-bottom: 0.75rem;
+    }
+    .method-toc ol {
+      margin: 0;
+      padding-left: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .method-toc li a {
+      color: var(--gray-800);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .method-toc li a:hover { text-decoration: underline; }
+
+    .method-section {
+      margin-bottom: 2.5rem;
+      border-bottom: 1.5px solid var(--gray-200);
+      padding-bottom: 2rem;
+    }
+    .method-section:last-of-type { border-bottom: none; }
+
+    .method-section h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: var(--gray-900);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .method-tag {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background: var(--gray-900);
+      color: var(--white);
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+    }
+
+    .method-section p,
+    .method-section li {
+      font-size: 0.93rem;
+      line-height: 1.75;
+      color: var(--gray-800);
+    }
+    .method-section ul, .method-section ol {
+      padding-left: 1.4rem;
+      margin: 0.75rem 0;
+    }
+    .method-section li { margin-bottom: 0.3rem; }
+
+    .score-range-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.88rem;
+    }
+    .score-range-table th {
+      background: var(--gray-900);
+      color: var(--white);
+      padding: 0.6rem 0.9rem;
+      text-align: left;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .score-range-table td {
+      padding: 0.6rem 0.9rem;
+      border-bottom: 1px solid var(--gray-200);
+      vertical-align: middle;
+    }
+    .score-range-table tr:last-child td { border-bottom: none; }
+    .score-range-table tr:nth-child(even) td { background: var(--gray-100); }
+
+    .status-row td:first-child { font-weight: 700; }
+
+    .callout {
+      background: var(--bg-at-risk);
+      border-left: 4px solid var(--color-at-risk);
+      border-radius: 0 8px 8px 0;
+      padding: 0.9rem 1.1rem;
+      margin: 1rem 0;
+      font-size: 0.88rem;
+      line-height: 1.6;
+      color: var(--gray-800);
+    }
+    .callout strong { color: var(--color-at-risk); }
+
+    .source-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .source-card {
+      background: var(--white);
+      border: 1.5px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 1rem;
+    }
+    .source-card h4 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+    .source-card p {
+      font-size: 0.82rem;
+      color: var(--gray-700);
+      margin-bottom: 0.5rem;
+    }
+    .source-card a {
+      font-size: 0.8rem;
+      color: var(--gray-900);
+      font-weight: 600;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-title">
+        <h1>Democratic Backsliding Tracker</h1>
+        <p class="subtitle">Monitoring democratic health worldwide</p>
+      </div>
+      <div class="header-meta">
+        <span class="data-note">Data: V-Dem, ERT, BTI indicators &middot; Updated 2024</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="method-content">
+    <a href="index.html" class="back-link">&#8592; Back to Tracker</a>
+
+    <div class="method-hero">
+      <h2>Methodology</h2>
+      <p>
+        This tracker combines four leading academic datasets to assess the state of democracy
+        in 34 countries. Each indicator captures a different dimension of democratic quality —
+        together they provide a comprehensive picture of democratic health and the direction of change.
+      </p>
+    </div>
+
+    <nav class="method-toc">
+      <h3>Contents</h3>
+      <ol>
+        <li><a href="#vdem">V-Dem Electoral Democracy Index (Polyarchy)</a></li>
+        <li><a href="#libdem">V-Dem Liberal Democracy Index</a></li>
+        <li><a href="#ert">Episodes of Regime Transformation (ERT)</a></li>
+        <li><a href="#bti">Bertelsmann Transformation Index (BTI)</a></li>
+        <li><a href="#status">Status Categories</a></li>
+        <li><a href="#limitations">Limitations & Caveats</a></li>
+        <li><a href="#sources">Data Sources</a></li>
+      </ol>
+    </nav>
+
+    <!-- V-Dem Polyarchy -->
+    <section class="method-section" id="vdem">
+      <h3><span class="method-tag">V-Dem</span> Electoral Democracy Index (Polyarchy)</h3>
+      <p>
+        The Electoral Democracy Index — also known as the <strong>Polyarchy Index</strong> — is produced
+        by the Varieties of Democracy (V-Dem) project at the University of Gothenburg. It is the
+        most widely cited academic measure of electoral democracy and draws on thousands of expert
+        codings across 202 countries dating back to 1789.
+      </p>
+      <p>The index captures five core principles of electoral democracy:</p>
+      <ul>
+        <li><strong>Elected officials</strong> — Are government positions filled through elections?</li>
+        <li><strong>Clean elections</strong> — Are elections free from fraud, intimidation, and manipulation?</li>
+        <li><strong>Freedom of expression</strong> — Can citizens and media freely criticize the government?</li>
+        <li><strong>Freedom of association</strong> — Can opposition parties, civil society, and unions organize?</li>
+        <li><strong>Suffrage</strong> — Do all adult citizens have the right to vote?</li>
+      </ul>
+      <p>
+        Scores range from <strong>0 (least democratic)</strong> to <strong>1 (most democratic)</strong>.
+        A score above ~0.75 generally indicates a well-functioning electoral democracy; a score below
+        ~0.4 raises serious concerns about electoral integrity.
+      </p>
+      <table class="score-range-table">
+        <thead><tr><th>Score range</th><th>Interpretation</th><th>Examples</th></tr></thead>
+        <tbody>
+          <tr><td>0.80 – 1.00</td><td>High-quality electoral democracy</td><td>Uruguay, Costa Rica, Canada</td></tr>
+          <tr><td>0.60 – 0.79</td><td>Functioning electoral democracy</td><td>Brazil, Argentina, Ghana</td></tr>
+          <tr><td>0.40 – 0.59</td><td>Flawed or eroding democracy</td><td>Mexico, Guatemala, Serbia</td></tr>
+          <tr><td>0.20 – 0.39</td><td>Competitive authoritarian regime</td><td>India, Turkey, Tunisia</td></tr>
+          <tr><td>0.00 – 0.19</td><td>Electoral autocracy or closed autocracy</td><td>Venezuela, Nicaragua, Cuba</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- V-Dem LibDem -->
+    <section class="method-section" id="libdem">
+      <h3><span class="method-tag">V-Dem</span> Liberal Democracy Index</h3>
+      <p>
+        The Liberal Democracy Index goes beyond elections to ask whether individual rights and
+        institutional checks limit the power of elected governments. A country can hold regular
+        elections while still concentrating power dangerously — the liberal democracy index captures
+        this distinction.
+      </p>
+      <p>It combines the Polyarchy Index with measures of:</p>
+      <ul>
+        <li><strong>Judicial independence</strong> — Can courts rule against the government without retaliation?</li>
+        <li><strong>Rule of law</strong> — Are government officials subject to the same laws as citizens?</li>
+        <li><strong>Civil liberties</strong> — Are freedoms of movement, religion, and private life protected?</li>
+        <li><strong>Legislative constraints</strong> — Can the legislature effectively check executive power?</li>
+      </ul>
+      <p>
+        This index is typically lower than the polyarchy index because it sets a higher bar.
+        A country with relatively free elections but a captured judiciary will score well on polyarchy
+        but poorly on liberal democracy — a warning sign of incipient autocratization.
+      </p>
+    </section>
+
+    <!-- ERT -->
+    <section class="method-section" id="ert">
+      <h3><span class="method-tag">ERT</span> Episodes of Regime Transformation</h3>
+      <p>
+        The ERT dataset, developed by Anna Lührmann, Seraphine Maerz, and colleagues at
+        V-Dem, identifies discrete episodes in which a country's regime type is changing in a
+        consistent direction. Rather than comparing point-in-time scores, ERT identifies
+        <em>trajectories</em> — sustained moves toward or away from democracy.
+      </p>
+      <p>Episode types displayed in this tracker:</p>
+      <ul>
+        <li>
+          <strong>Autocratization</strong> — A country is experiencing a significant, sustained decline
+          in electoral democracy scores. This is the core signal of democratic backsliding.
+        </li>
+        <li>
+          <strong>Democratic erosion</strong> — A more gradual weakening of democratic institutions
+          or norms, often below the threshold of a full autocratization episode.
+        </li>
+        <li>
+          <strong>Crisis</strong> — A discrete political crisis (coup attempt, constitutional breakdown,
+          contested election) that destabilizes democratic governance.
+        </li>
+        <li>
+          <strong>Closed autocracy</strong> — The country has been an entrenched autocracy with no
+          meaningful competitive elections for an extended period.
+        </li>
+      </ul>
+      <div class="callout">
+        <strong>Note on ongoing episodes:</strong> Episodes marked with no end year are currently
+        ongoing as of the most recent data update. This does not necessarily mean conditions are
+        worsening — it means the country has not yet completed a measurable democratic recovery.
+      </div>
+    </section>
+
+    <!-- BTI -->
+    <section class="method-section" id="bti">
+      <h3><span class="method-tag">BTI</span> Bertelsmann Transformation Index</h3>
+      <p>
+        The Bertelsmann Transformation Index (BTI), produced by the Bertelsmann Stiftung in Germany,
+        measures the quality of democracy and governance in developing and transition countries.
+        It is based on country expert assessments updated every two years.
+      </p>
+      <p>
+        This tracker displays the <strong>BTI Governance Score</strong> (also called the Management
+        Index), which assesses the quality of political management — specifically how well governing
+        elites guide transformation processes, manage crises, and operate within institutional
+        constraints. Scores range from <strong>1 (worst) to 10 (best)</strong>.
+      </p>
+      <p>Key dimensions assessed:</p>
+      <ul>
+        <li><strong>Steering capability</strong> — Strategic vision and coherent reform priorities</li>
+        <li><strong>Resource efficiency</strong> — Efficient use of economic and human resources</li>
+        <li><strong>Consensus-building</strong> — Ability to forge compromise and manage social conflicts</li>
+        <li><strong>International cooperation</strong> — Credible engagement with international norms and institutions</li>
+      </ul>
+    </section>
+
+    <!-- Status categories -->
+    <section class="method-section" id="status">
+      <h3>Status Categories</h3>
+      <p>
+        Each country is assigned a single status label synthesizing the V-Dem, ERT, and BTI
+        data. These are editorial judgments based on the combination of indicators and recent events
+        — they are not mechanically derived from any single threshold.
+      </p>
+      <table class="score-range-table">
+        <thead><tr><th>Status</th><th>Meaning</th><th>Typical profile</th></tr></thead>
+        <tbody class="status-row">
+          <tr>
+            <td style="color:var(--color-stable);font-weight:700">Stable</td>
+            <td>Democracy is functioning well with no significant recent threats</td>
+            <td>Polyarchy &gt; 0.75; no active ERT episode; BTI &gt; 7</td>
+          </tr>
+          <tr>
+            <td style="color:var(--color-recovering);font-weight:700">Recovering</td>
+            <td>Recent backsliding episode has ended; democratic norms being restored</td>
+            <td>ERT episode closed within last 3 years; scores improving</td>
+          </tr>
+          <tr>
+            <td style="color:var(--color-at-risk);font-weight:700">At Risk</td>
+            <td>Democratic institutions are under strain but holding; warning signs present</td>
+            <td>Polyarchy 0.50–0.75; weakening trend or isolated institutional attacks</td>
+          </tr>
+          <tr>
+            <td style="color:var(--color-backsliding);font-weight:700">Backsliding</td>
+            <td>Active, documented erosion of democratic norms or institutions</td>
+            <td>Active ERT episode; Polyarchy declining; multiple institutional attacks</td>
+          </tr>
+          <tr>
+            <td style="color:var(--color-autocracy);font-weight:700">Autocracy</td>
+            <td>No meaningful electoral competition; fundamental freedoms suppressed</td>
+            <td>Polyarchy &lt; 0.25; no genuine opposition; press and civil society repressed</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Limitations -->
+    <section class="method-section" id="limitations">
+      <h3>Limitations &amp; Caveats</h3>
+      <div class="callout">
+        <strong>Important disclaimer:</strong> All scores in this tracker are approximate, synthesized
+        from published academic indices, and intended for educational purposes only. They should not
+        be cited as authoritative measures without consulting the primary sources below.
+      </div>
+      <ul>
+        <li>
+          <strong>Expert coding variability:</strong> V-Dem scores are derived from expert surveys.
+          Different experts may code the same events differently, introducing measurement uncertainty
+          that is not always reflected in the final scores.
+        </li>
+        <li>
+          <strong>Lag:</strong> Academic datasets typically have a 1–2 year publication lag. Events
+          from 2024–2025 may not yet be fully reflected in official index scores.
+        </li>
+        <li>
+          <strong>Coverage gaps:</strong> BTI does not cover all countries (e.g. USA, Canada, most
+          of Western Europe). BTI scores shown for those countries are indicative only.
+        </li>
+        <li>
+          <strong>Aggregation choices:</strong> Combining multiple indices into a single "status"
+          label involves editorial judgment. Reasonable analysts could reach different conclusions
+          from the same underlying data.
+        </li>
+        <li>
+          <strong>Electoral vs. liberal democracy:</strong> A country may perform well on electoral
+          indicators while seriously violating minority rights or rule of law. Always examine both
+          indices together.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Sources -->
+    <section class="method-section" id="sources">
+      <h3>Data Sources</h3>
+      <div class="source-grid">
+        <div class="source-card">
+          <h4>V-Dem Institute</h4>
+          <p>Electoral Democracy &amp; Liberal Democracy indices. University of Gothenburg.</p>
+          <a href="https://www.v-dem.net/" target="_blank" rel="noopener">v-dem.net &#8599;</a>
+        </div>
+        <div class="source-card">
+          <h4>ERT Dataset</h4>
+          <p>Episodes of Regime Transformation. V-Dem Institute &amp; University of Copenhagen.</p>
+          <a href="https://www.v-dem.net/data/dataset-archive/" target="_blank" rel="noopener">V-Dem Data Archive &#8599;</a>
+        </div>
+        <div class="source-card">
+          <h4>Bertelsmann Stiftung (BTI)</h4>
+          <p>Transformation Index governance scores. Published every two years.</p>
+          <a href="https://bti-project.org/" target="_blank" rel="noopener">bti-project.org &#8599;</a>
+        </div>
+        <div class="source-card">
+          <h4>Freedom House</h4>
+          <p><em>Not directly used but consulted</em> for contextual cross-checking of status labels.</p>
+          <a href="https://freedomhouse.org/report/freedom-world" target="_blank" rel="noopener">Freedom in the World &#8599;</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <p>
+      Data sources: <a href="https://www.v-dem.net/" target="_blank" rel="noopener">V-Dem Institute</a> &middot;
+      <a href="https://www.v-dem.net/data/dataset-archive/" target="_blank" rel="noopener">ERT Dataset</a> &middot;
+      <a href="https://bti-project.org/" target="_blank" rel="noopener">Bertelsmann Transformation Index (BTI)</a>
+    </p>
+    <p class="disclaimer">Scores are approximate and sourced from published academic and policy indices. This tracker is for educational purposes.</p>
+  </footer>
+</body>
+</html>

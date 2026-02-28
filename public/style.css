@@ -76,6 +76,19 @@ a { color: inherit; }
   white-space: nowrap;
 }
 
+.method-link {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.65);
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 5px;
+  padding: 0.25rem 0.6rem;
+  margin-left: 0.75rem;
+  transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+.method-link:hover { background: rgba(255,255,255,0.12); color: #fff; }
+
 /* ===== Main ===== */
 .main-content {
   flex: 1;
