@@ -24,7 +24,7 @@ const STATUS_CLASS = {
 /* ── State ── */
 let allCountries = [];
 let currentView = 'grid'; // 'grid' | 'table' | 'map'
-let activeFilters = { status: 'all', sortBy: 'name', sortOrder: 'asc', search: '' };
+let activeFilters = { region: 'all', status: 'all', sortBy: 'name', sortOrder: 'asc', search: '' };
 
 /* ── Bootstrap ── */
 async function init() {
@@ -61,10 +61,12 @@ function populateSummary(countries) {
 function getFilteredSorted() {
   const { status, sortBy, sortOrder, search } = activeFilters;
 
+  const { region } = activeFilters;
   let list = allCountries.filter(c => {
+    const matchRegion = region === 'all' || (c.region || '') === region;
     const matchStatus = status === 'all' || (c.status_indicator || '').toLowerCase() === status;
     const matchSearch = !search || c.name.toLowerCase().includes(search.toLowerCase());
-    return matchStatus && matchSearch;
+    return matchRegion && matchStatus && matchSearch;
   });
 
   list.sort((a, b) => {
@@ -400,6 +402,11 @@ function closeModal() {
 
 /* ── Controls ── */
 function bindControls() {
+  document.getElementById('regionFilter').addEventListener('change', e => {
+    activeFilters.region = e.target.value;
+    renderView();
+  });
+
   document.getElementById('statusFilter').addEventListener('change', e => {
     activeFilters.status = e.target.value;
     renderView();

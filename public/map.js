@@ -3,27 +3,27 @@
    D3 v7 choropleth of Latin America
    =================================================== */
 
-/* ISO numeric (integer) → country name */
+/* ISO numeric (integer) → country name — all tracked countries */
 const LATAM_ISO = {
-  32:  'Argentina',
-  68:  'Bolivia',
-  76:  'Brazil',
-  152: 'Chile',
-  170: 'Colombia',
-  188: 'Costa Rica',
-  192: 'Cuba',
-  214: 'Dominican Republic',
-  218: 'Ecuador',
-  222: 'El Salvador',
-  320: 'Guatemala',
-  340: 'Honduras',
-  484: 'Mexico',
-  558: 'Nicaragua',
-  591: 'Panama',
-  600: 'Paraguay',
-  604: 'Peru',
-  858: 'Uruguay',
+  // Latin America
+  32:  'Argentina',    68:  'Bolivia',        76:  'Brazil',
+  152: 'Chile',        170: 'Colombia',       188: 'Costa Rica',
+  192: 'Cuba',         214: 'Dominican Republic', 218: 'Ecuador',
+  222: 'El Salvador',  320: 'Guatemala',      340: 'Honduras',
+  484: 'Mexico',       558: 'Nicaragua',      591: 'Panama',
+  600: 'Paraguay',     604: 'Peru',           858: 'Uruguay',
   862: 'Venezuela',
+  // Europe
+  348: 'Hungary',   616: 'Poland',    688: 'Serbia',
+  792: 'Turkey',    268: 'Georgia',   112: 'Belarus',
+  // Asia
+  356: 'India',     608: 'Philippines', 360: 'Indonesia',
+  // Africa
+  788: 'Tunisia',   710: 'South Africa', 288: 'Ghana',
+  // North America
+  840: 'United States', 124: 'Canada',
+  // Middle East
+  376: 'Israel',
 };
 
 const STATUS_FILL = {
@@ -81,8 +81,8 @@ async function renderMap() {
 function drawMap(container, world) {
   container.innerHTML = '';
 
-  const W = container.clientWidth || 900;
-  const H = Math.round(W * 0.70);
+  const W = container.clientWidth || 960;
+  const H = Math.round(W * 0.52);
 
   const svg = d3.select(container)
     .append('svg')
@@ -95,19 +95,9 @@ function drawMap(container, world) {
     .attr('width', W).attr('height', H)
     .attr('fill', '#cfe6f0');
 
-  /* Projection fitted to Latin America bounding box */
-  const latamBbox = {
-    type: 'Feature',
-    geometry: {
-      type: 'Polygon',
-      coordinates: [[
-        [-120, 34], [-34, 34], [-34, -56], [-120, -56], [-120, 34]
-      ]]
-    }
-  };
-
-  const projection = d3.geoMercator()
-    .fitExtent([[24, 24], [W - 24, H - 56]], latamBbox);
+  /* Natural Earth world projection */
+  const projection = d3.geoNaturalEarth1()
+    .fitExtent([[10, 10], [W - 10, H - 44]], { type: 'Sphere' });
 
   const path = d3.geoPath().projection(projection);
 

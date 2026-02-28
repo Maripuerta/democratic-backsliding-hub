@@ -11,7 +11,7 @@
     <div class="header-inner">
       <div class="header-title">
         <h1>Democratic Backsliding Tracker</h1>
-        <p class="subtitle">Monitoring democratic health across Latin America</p>
+        <p class="subtitle">Monitoring democratic health worldwide</p>
       </div>
       <div class="header-meta">
         <span class="data-note">Data: V-Dem, ERT, BTI indicators &middot; Updated 2024</span>
@@ -46,6 +46,18 @@
 
     <!-- Controls -->
     <section class="controls">
+      <div class="filter-group">
+        <label for="regionFilter">Region</label>
+        <select id="regionFilter">
+          <option value="all">All Regions</option>
+          <option value="Latin America">Latin America</option>
+          <option value="Europe">Europe</option>
+          <option value="Asia">Asia</option>
+          <option value="Africa">Africa</option>
+          <option value="North America">North America</option>
+          <option value="Middle East">Middle East</option>
+        </select>
+      </div>
       <div class="filter-group">
         <label for="statusFilter">Status</label>
         <select id="statusFilter">

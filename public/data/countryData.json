@@ -69,7 +69,8 @@
           "year": 2023,
           "value": 0.81
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Bolivia",
@@ -146,7 +147,8 @@
           "year": 2023,
           "value": 0.62
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Brazil",
@@ -217,7 +219,8 @@
           "year": 2023,
           "value": 0.78
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Chile",
@@ -281,7 +284,8 @@
           "year": 2023,
           "value": 0.86
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Colombia",
@@ -352,7 +356,8 @@
           "year": 2023,
           "value": 0.67
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Costa Rica",
@@ -411,7 +416,8 @@
           "year": 2023,
           "value": 0.88
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Cuba",
@@ -482,7 +488,8 @@
           "year": 2023,
           "value": 0.06
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Dominican Republic",
@@ -546,7 +553,8 @@
           "year": 2023,
           "value": 0.6
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Ecuador",
@@ -617,7 +625,8 @@
           "year": 2023,
           "value": 0.65
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "El Salvador",
@@ -693,7 +702,8 @@
           "year": 2023,
           "value": 0.46
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Guatemala",
@@ -769,7 +779,8 @@
           "year": 2023,
           "value": 0.52
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Honduras",
@@ -845,7 +856,8 @@
           "year": 2023,
           "value": 0.43
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Mexico",
@@ -921,7 +933,8 @@
           "year": 2023,
           "value": 0.59
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Nicaragua",
@@ -997,7 +1010,8 @@
           "year": 2023,
           "value": 0.17
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Panama",
@@ -1061,7 +1075,8 @@
           "year": 2023,
           "value": 0.72
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Paraguay",
@@ -1132,7 +1147,8 @@
           "year": 2023,
           "value": 0.57
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Peru",
@@ -1208,7 +1224,8 @@
           "year": 2023,
           "value": 0.6
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Uruguay",
@@ -1267,7 +1284,8 @@
           "year": 2023,
           "value": 0.88
         }
-      ]
+      ],
+      "region": "Latin America"
     },
     {
       "name": "Venezuela",
@@ -1337,6 +1355,1074 @@
         {
           "year": 2023,
           "value": 0.09
+        }
+      ],
+      "region": "Latin America"
+    },
+    {
+      "name": "Hungary",
+      "iso2": "HU",
+      "region": "Europe",
+      "V-Dem_polyarchy_index": 0.42,
+      "libdem_index": 0.25,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2010,
+          "end_year": null,
+          "description": "Orb\u00e1n's Fidesz party dismantled judicial independence, captured media, changed electoral rules, and hollowed out democratic checks over 14+ years."
+        }
+      ],
+      "BTI_governance_score": 5.1,
+      "DEED_event_counts": 8,
+      "status_indicator": "autocracy",
+      "recent_events": [
+        {
+          "year": 2022,
+          "event": "Fidesz wins supermajority again; EU withholds funds over rule-of-law concerns",
+          "severity": "high"
+        },
+        {
+          "year": 2023,
+          "event": "Parliament passes constitutional amendments further limiting judicial review",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.83
+        },
+        {
+          "year": 2003,
+          "value": 0.82
+        },
+        {
+          "year": 2006,
+          "value": 0.82
+        },
+        {
+          "year": 2009,
+          "value": 0.81
+        },
+        {
+          "year": 2012,
+          "value": 0.65
+        },
+        {
+          "year": 2015,
+          "value": 0.54
+        },
+        {
+          "year": 2018,
+          "value": 0.47
+        },
+        {
+          "year": 2020,
+          "value": 0.44
+        },
+        {
+          "year": 2022,
+          "value": 0.43
+        },
+        {
+          "year": 2023,
+          "value": 0.42
+        }
+      ]
+    },
+    {
+      "name": "Poland",
+      "iso2": "PL",
+      "region": "Europe",
+      "V-Dem_polyarchy_index": 0.76,
+      "libdem_index": 0.56,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2015,
+          "end_year": 2023,
+          "description": "PiS government packed Constitutional Tribunal, restricted judiciary, and curtailed media freedom; reversed by Tusk coalition in 2023."
+        }
+      ],
+      "BTI_governance_score": 7.2,
+      "DEED_event_counts": 5,
+      "status_indicator": "recovering",
+      "recent_events": [
+        {
+          "year": 2023,
+          "event": "Tusk coalition wins elections; begins restoring judicial independence",
+          "severity": "low"
+        },
+        {
+          "year": 2024,
+          "event": "Government attempts to retake public broadcasting; constitutional standoff with president",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.82
+        },
+        {
+          "year": 2003,
+          "value": 0.83
+        },
+        {
+          "year": 2006,
+          "value": 0.83
+        },
+        {
+          "year": 2009,
+          "value": 0.84
+        },
+        {
+          "year": 2012,
+          "value": 0.84
+        },
+        {
+          "year": 2015,
+          "value": 0.78
+        },
+        {
+          "year": 2018,
+          "value": 0.68
+        },
+        {
+          "year": 2020,
+          "value": 0.65
+        },
+        {
+          "year": 2022,
+          "value": 0.65
+        },
+        {
+          "year": 2023,
+          "value": 0.76
+        }
+      ]
+    },
+    {
+      "name": "Serbia",
+      "iso2": "RS",
+      "region": "Europe",
+      "V-Dem_polyarchy_index": 0.45,
+      "libdem_index": 0.28,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2012,
+          "end_year": null,
+          "description": "Vucic's SNS consolidated control over media, judiciary, and state resources; opposition boycotted 2020 elections."
+        }
+      ],
+      "BTI_governance_score": 5.5,
+      "DEED_event_counts": 5,
+      "status_indicator": "backsliding",
+      "recent_events": [
+        {
+          "year": 2023,
+          "event": "Mass protests over electoral fraud allegations in December election",
+          "severity": "high"
+        },
+        {
+          "year": 2024,
+          "event": "Disputed parliamentary results; opposition demonstrators sustain months of protests",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.52
+        },
+        {
+          "year": 2003,
+          "value": 0.58
+        },
+        {
+          "year": 2006,
+          "value": 0.62
+        },
+        {
+          "year": 2009,
+          "value": 0.63
+        },
+        {
+          "year": 2012,
+          "value": 0.6
+        },
+        {
+          "year": 2015,
+          "value": 0.52
+        },
+        {
+          "year": 2018,
+          "value": 0.48
+        },
+        {
+          "year": 2020,
+          "value": 0.45
+        },
+        {
+          "year": 2022,
+          "value": 0.45
+        },
+        {
+          "year": 2023,
+          "value": 0.45
+        }
+      ]
+    },
+    {
+      "name": "Turkey",
+      "iso2": "TR",
+      "region": "Europe",
+      "V-Dem_polyarchy_index": 0.22,
+      "libdem_index": 0.12,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2013,
+          "end_year": null,
+          "description": "Erdo\u011fan dismantled checks and balances, jailed journalists and opponents, and shifted to presidential system after 2016 coup attempt."
+        }
+      ],
+      "BTI_governance_score": 4.2,
+      "DEED_event_counts": 9,
+      "status_indicator": "autocracy",
+      "recent_events": [
+        {
+          "year": 2023,
+          "event": "Erdo\u011fan wins re-election in runoff amid opposition's strongest challenge in two decades",
+          "severity": "medium"
+        },
+        {
+          "year": 2024,
+          "event": "Opposition CHP wins Istanbul and Ankara mayoral races; first major electoral loss for AKP since 2002",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.52
+        },
+        {
+          "year": 2003,
+          "value": 0.57
+        },
+        {
+          "year": 2006,
+          "value": 0.58
+        },
+        {
+          "year": 2009,
+          "value": 0.58
+        },
+        {
+          "year": 2012,
+          "value": 0.52
+        },
+        {
+          "year": 2015,
+          "value": 0.4
+        },
+        {
+          "year": 2018,
+          "value": 0.28
+        },
+        {
+          "year": 2020,
+          "value": 0.24
+        },
+        {
+          "year": 2022,
+          "value": 0.22
+        },
+        {
+          "year": 2023,
+          "value": 0.22
+        }
+      ]
+    },
+    {
+      "name": "Georgia",
+      "iso2": "GE",
+      "region": "Europe",
+      "V-Dem_polyarchy_index": 0.5,
+      "libdem_index": 0.33,
+      "ERT_episodes": [
+        {
+          "type": "democratic erosion",
+          "start_year": 2020,
+          "end_year": null,
+          "description": "Georgian Dream government increased authoritarian tendencies; passed Russian-style 'foreign agents' law and cracked down on protests."
+        }
+      ],
+      "BTI_governance_score": 5.8,
+      "DEED_event_counts": 4,
+      "status_indicator": "backsliding",
+      "recent_events": [
+        {
+          "year": 2024,
+          "event": "Parliament passes 'foreign influence' law; EU suspends accession talks",
+          "severity": "high"
+        },
+        {
+          "year": 2024,
+          "event": "Disputed election; weeks of mass pro-EU protests across Tbilisi",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.42
+        },
+        {
+          "year": 2003,
+          "value": 0.38
+        },
+        {
+          "year": 2006,
+          "value": 0.56
+        },
+        {
+          "year": 2009,
+          "value": 0.58
+        },
+        {
+          "year": 2012,
+          "value": 0.59
+        },
+        {
+          "year": 2015,
+          "value": 0.6
+        },
+        {
+          "year": 2018,
+          "value": 0.57
+        },
+        {
+          "year": 2020,
+          "value": 0.53
+        },
+        {
+          "year": 2022,
+          "value": 0.51
+        },
+        {
+          "year": 2023,
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Belarus",
+      "iso2": "BY",
+      "region": "Europe",
+      "V-Dem_polyarchy_index": 0.09,
+      "libdem_index": 0.04,
+      "ERT_episodes": [
+        {
+          "type": "closed autocracy",
+          "start_year": 1994,
+          "end_year": null,
+          "description": "Lukashenko has ruled without democratic legitimacy since 1994; 2020 election stolen and mass protests violently suppressed."
+        }
+      ],
+      "BTI_governance_score": 2.5,
+      "DEED_event_counts": 7,
+      "status_indicator": "autocracy",
+      "recent_events": [
+        {
+          "year": 2020,
+          "event": "Fraudulent election; 35,000+ arrested during unprecedented mass protests",
+          "severity": "high"
+        },
+        {
+          "year": 2022,
+          "event": "Belarus used as launchpad for Russian invasion of Ukraine; further isolation",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.14
+        },
+        {
+          "year": 2003,
+          "value": 0.12
+        },
+        {
+          "year": 2006,
+          "value": 0.11
+        },
+        {
+          "year": 2009,
+          "value": 0.11
+        },
+        {
+          "year": 2012,
+          "value": 0.1
+        },
+        {
+          "year": 2015,
+          "value": 0.1
+        },
+        {
+          "year": 2018,
+          "value": 0.09
+        },
+        {
+          "year": 2020,
+          "value": 0.09
+        },
+        {
+          "year": 2022,
+          "value": 0.09
+        },
+        {
+          "year": 2023,
+          "value": 0.09
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "iso2": "IN",
+      "region": "Asia",
+      "V-Dem_polyarchy_index": 0.39,
+      "libdem_index": 0.22,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2014,
+          "end_year": null,
+          "description": "Modi-led BJP government weakened minority rights, press freedom, and judicial independence while using state institutions against opponents."
+        }
+      ],
+      "BTI_governance_score": 5.9,
+      "DEED_event_counts": 7,
+      "status_indicator": "backsliding",
+      "recent_events": [
+        {
+          "year": 2023,
+          "event": "Rahul Gandhi's parliament seat stripped after conviction; opposition leaders arrested",
+          "severity": "high"
+        },
+        {
+          "year": 2024,
+          "event": "BJP loses supermajority in general election; coalition government formed",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.66
+        },
+        {
+          "year": 2003,
+          "value": 0.67
+        },
+        {
+          "year": 2006,
+          "value": 0.68
+        },
+        {
+          "year": 2009,
+          "value": 0.69
+        },
+        {
+          "year": 2012,
+          "value": 0.67
+        },
+        {
+          "year": 2015,
+          "value": 0.58
+        },
+        {
+          "year": 2018,
+          "value": 0.48
+        },
+        {
+          "year": 2020,
+          "value": 0.42
+        },
+        {
+          "year": 2022,
+          "value": 0.4
+        },
+        {
+          "year": 2023,
+          "value": 0.39
+        }
+      ]
+    },
+    {
+      "name": "Philippines",
+      "iso2": "PH",
+      "region": "Asia",
+      "V-Dem_polyarchy_index": 0.47,
+      "libdem_index": 0.28,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2016,
+          "end_year": 2022,
+          "description": "Duterte's drug war killed thousands extrajudicially; media outlets shut down, ICC probe launched."
+        }
+      ],
+      "BTI_governance_score": 5.6,
+      "DEED_event_counts": 5,
+      "status_indicator": "at risk",
+      "recent_events": [
+        {
+          "year": 2022,
+          "event": "Marcos Jr. wins presidency in landslide; Duterte-Marcos alliance forms",
+          "severity": "medium"
+        },
+        {
+          "year": 2024,
+          "event": "Split between Marcos and Sara Duterte; drug war legacy investigated",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.6
+        },
+        {
+          "year": 2003,
+          "value": 0.58
+        },
+        {
+          "year": 2006,
+          "value": 0.56
+        },
+        {
+          "year": 2009,
+          "value": 0.57
+        },
+        {
+          "year": 2012,
+          "value": 0.58
+        },
+        {
+          "year": 2015,
+          "value": 0.57
+        },
+        {
+          "year": 2018,
+          "value": 0.46
+        },
+        {
+          "year": 2020,
+          "value": 0.44
+        },
+        {
+          "year": 2022,
+          "value": 0.45
+        },
+        {
+          "year": 2023,
+          "value": 0.47
+        }
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "iso2": "ID",
+      "region": "Asia",
+      "V-Dem_polyarchy_index": 0.52,
+      "libdem_index": 0.29,
+      "ERT_episodes": [
+        {
+          "type": "democratic erosion",
+          "start_year": 2019,
+          "end_year": null,
+          "description": "Jokowi era saw growing military role in civilian affairs, weakened KPK anti-corruption body, and criminalization of dissent."
+        }
+      ],
+      "BTI_governance_score": 5.8,
+      "DEED_event_counts": 4,
+      "status_indicator": "at risk",
+      "recent_events": [
+        {
+          "year": 2024,
+          "event": "Prabowo wins presidency; dynastic politics as Jokowi's son runs as VP",
+          "severity": "medium"
+        },
+        {
+          "year": 2024,
+          "event": "Military allowed wider domestic law enforcement role by new law",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.53
+        },
+        {
+          "year": 2003,
+          "value": 0.58
+        },
+        {
+          "year": 2006,
+          "value": 0.61
+        },
+        {
+          "year": 2009,
+          "value": 0.63
+        },
+        {
+          "year": 2012,
+          "value": 0.64
+        },
+        {
+          "year": 2015,
+          "value": 0.63
+        },
+        {
+          "year": 2018,
+          "value": 0.59
+        },
+        {
+          "year": 2020,
+          "value": 0.54
+        },
+        {
+          "year": 2022,
+          "value": 0.53
+        },
+        {
+          "year": 2023,
+          "value": 0.52
+        }
+      ]
+    },
+    {
+      "name": "Tunisia",
+      "iso2": "TN",
+      "region": "Africa",
+      "V-Dem_polyarchy_index": 0.3,
+      "libdem_index": 0.18,
+      "ERT_episodes": [
+        {
+          "type": "democratic erosion",
+          "start_year": 2011,
+          "end_year": 2021,
+          "description": "Post-Arab Spring democratic transition, fragile but functioning."
+        },
+        {
+          "type": "autocratization",
+          "start_year": 2021,
+          "end_year": null,
+          "description": "President Saied suspended parliament in self-coup, rewrote constitution, and concentrated all power in presidency."
+        }
+      ],
+      "BTI_governance_score": 4.2,
+      "DEED_event_counts": 6,
+      "status_indicator": "backsliding",
+      "recent_events": [
+        {
+          "year": 2022,
+          "event": "New constitution approved in low-turnout referendum; checks and balances removed",
+          "severity": "high"
+        },
+        {
+          "year": 2023,
+          "event": "Opposition leaders imprisoned; journalists arrested for social media posts",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.18
+        },
+        {
+          "year": 2003,
+          "value": 0.18
+        },
+        {
+          "year": 2006,
+          "value": 0.18
+        },
+        {
+          "year": 2009,
+          "value": 0.18
+        },
+        {
+          "year": 2012,
+          "value": 0.52
+        },
+        {
+          "year": 2015,
+          "value": 0.6
+        },
+        {
+          "year": 2018,
+          "value": 0.59
+        },
+        {
+          "year": 2020,
+          "value": 0.56
+        },
+        {
+          "year": 2022,
+          "value": 0.34
+        },
+        {
+          "year": 2023,
+          "value": 0.3
+        }
+      ]
+    },
+    {
+      "name": "South Africa",
+      "iso2": "ZA",
+      "region": "Africa",
+      "V-Dem_polyarchy_index": 0.68,
+      "libdem_index": 0.5,
+      "ERT_episodes": [
+        {
+          "type": "democratic erosion",
+          "start_year": 2009,
+          "end_year": 2018,
+          "description": "State capture under Zuma severely weakened institutions; Ramaphosa reforms partially restored governance."
+        }
+      ],
+      "BTI_governance_score": 5.5,
+      "DEED_event_counts": 4,
+      "status_indicator": "at risk",
+      "recent_events": [
+        {
+          "year": 2024,
+          "event": "ANC loses majority for first time since 1994; forms Government of National Unity",
+          "severity": "medium"
+        },
+        {
+          "year": 2024,
+          "event": "Zuma's MK party surges; former president banned from running for parliament",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.76
+        },
+        {
+          "year": 2003,
+          "value": 0.76
+        },
+        {
+          "year": 2006,
+          "value": 0.75
+        },
+        {
+          "year": 2009,
+          "value": 0.73
+        },
+        {
+          "year": 2012,
+          "value": 0.7
+        },
+        {
+          "year": 2015,
+          "value": 0.68
+        },
+        {
+          "year": 2018,
+          "value": 0.68
+        },
+        {
+          "year": 2020,
+          "value": 0.68
+        },
+        {
+          "year": 2022,
+          "value": 0.68
+        },
+        {
+          "year": 2023,
+          "value": 0.68
+        }
+      ]
+    },
+    {
+      "name": "Ghana",
+      "iso2": "GH",
+      "region": "Africa",
+      "V-Dem_polyarchy_index": 0.74,
+      "libdem_index": 0.55,
+      "ERT_episodes": [],
+      "BTI_governance_score": 6.8,
+      "DEED_event_counts": 2,
+      "status_indicator": "stable",
+      "recent_events": [
+        {
+          "year": 2024,
+          "event": "Peaceful transfer of power as Mahama defeats Bawumia in presidential election",
+          "severity": "low"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.65
+        },
+        {
+          "year": 2003,
+          "value": 0.67
+        },
+        {
+          "year": 2006,
+          "value": 0.68
+        },
+        {
+          "year": 2009,
+          "value": 0.7
+        },
+        {
+          "year": 2012,
+          "value": 0.72
+        },
+        {
+          "year": 2015,
+          "value": 0.73
+        },
+        {
+          "year": 2018,
+          "value": 0.74
+        },
+        {
+          "year": 2020,
+          "value": 0.74
+        },
+        {
+          "year": 2022,
+          "value": 0.74
+        },
+        {
+          "year": 2023,
+          "value": 0.74
+        }
+      ]
+    },
+    {
+      "name": "United States",
+      "iso2": "US",
+      "region": "North America",
+      "V-Dem_polyarchy_index": 0.72,
+      "libdem_index": 0.6,
+      "ERT_episodes": [
+        {
+          "type": "democratic erosion",
+          "start_year": 2016,
+          "end_year": null,
+          "description": "Norm erosion, polarization, January 6 Capitol attack, and anti-democratic rhetoric from major political actors raised sustained concerns."
+        }
+      ],
+      "BTI_governance_score": 8.0,
+      "DEED_event_counts": 6,
+      "status_indicator": "at risk",
+      "recent_events": [
+        {
+          "year": 2021,
+          "event": "January 6 Capitol attack; Trump refuses to concede election results",
+          "severity": "high"
+        },
+        {
+          "year": 2024,
+          "event": "Trump wins presidential election; executive power expansion begins",
+          "severity": "high"
+        },
+        {
+          "year": 2025,
+          "event": "Mass firings of federal employees; DOGE dismantles oversight agencies",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.84
+        },
+        {
+          "year": 2003,
+          "value": 0.83
+        },
+        {
+          "year": 2006,
+          "value": 0.83
+        },
+        {
+          "year": 2009,
+          "value": 0.84
+        },
+        {
+          "year": 2012,
+          "value": 0.83
+        },
+        {
+          "year": 2015,
+          "value": 0.82
+        },
+        {
+          "year": 2018,
+          "value": 0.78
+        },
+        {
+          "year": 2020,
+          "value": 0.74
+        },
+        {
+          "year": 2022,
+          "value": 0.73
+        },
+        {
+          "year": 2023,
+          "value": 0.72
+        }
+      ]
+    },
+    {
+      "name": "Canada",
+      "iso2": "CA",
+      "region": "North America",
+      "V-Dem_polyarchy_index": 0.88,
+      "libdem_index": 0.76,
+      "ERT_episodes": [],
+      "BTI_governance_score": 9.0,
+      "DEED_event_counts": 1,
+      "status_indicator": "stable",
+      "recent_events": [
+        {
+          "year": 2025,
+          "event": "Trudeau resigns; Mark Carney wins Liberal leadership amid US tariff pressure",
+          "severity": "low"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.87
+        },
+        {
+          "year": 2003,
+          "value": 0.87
+        },
+        {
+          "year": 2006,
+          "value": 0.88
+        },
+        {
+          "year": 2009,
+          "value": 0.88
+        },
+        {
+          "year": 2012,
+          "value": 0.88
+        },
+        {
+          "year": 2015,
+          "value": 0.88
+        },
+        {
+          "year": 2018,
+          "value": 0.88
+        },
+        {
+          "year": 2020,
+          "value": 0.88
+        },
+        {
+          "year": 2022,
+          "value": 0.88
+        },
+        {
+          "year": 2023,
+          "value": 0.88
+        }
+      ]
+    },
+    {
+      "name": "Israel",
+      "iso2": "IL",
+      "region": "Middle East",
+      "V-Dem_polyarchy_index": 0.55,
+      "libdem_index": 0.4,
+      "ERT_episodes": [
+        {
+          "type": "democratic erosion",
+          "start_year": 2022,
+          "end_year": null,
+          "description": "Netanyahu's judicial overhaul legislation sought to strip Supreme Court of power to review government actions."
+        }
+      ],
+      "BTI_governance_score": 7.2,
+      "DEED_event_counts": 4,
+      "status_indicator": "at risk",
+      "recent_events": [
+        {
+          "year": 2023,
+          "event": "Mass protests against judicial reform; reserve soldiers refuse service",
+          "severity": "high"
+        },
+        {
+          "year": 2024,
+          "event": "Gaza war overshadows domestic governance crisis; ICC arrest warrant issued for Netanyahu",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.65
+        },
+        {
+          "year": 2003,
+          "value": 0.66
+        },
+        {
+          "year": 2006,
+          "value": 0.67
+        },
+        {
+          "year": 2009,
+          "value": 0.67
+        },
+        {
+          "year": 2012,
+          "value": 0.67
+        },
+        {
+          "year": 2015,
+          "value": 0.66
+        },
+        {
+          "year": 2018,
+          "value": 0.63
+        },
+        {
+          "year": 2020,
+          "value": 0.6
+        },
+        {
+          "year": 2022,
+          "value": 0.57
+        },
+        {
+          "year": 2023,
+          "value": 0.55
         }
       ]
     }
