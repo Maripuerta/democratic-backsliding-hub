@@ -81,11 +81,15 @@
       <div class="view-toggle">
         <button class="view-btn active" id="btnGrid" title="Grid view">&#9783;</button>
         <button class="view-btn" id="btnTable" title="Table view">&#9776;</button>
+        <button class="view-btn" id="btnMap" title="Map view">&#127758;</button>
       </div>
     </section>
 
     <!-- Grid view -->
     <section class="country-grid" id="countryGrid"></section>
+
+    <!-- Map view (hidden initially) -->
+    <section class="map-container hidden" id="mapContainer"></section>
 
     <!-- Table view (hidden initially) -->
     <section class="country-table-wrap hidden" id="countryTableWrap">
@@ -164,6 +168,9 @@
     <p class="disclaimer">Scores are approximate and sourced from published academic and policy indices. This tracker is for educational purposes.</p>
   </footer>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+  <script src="map.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

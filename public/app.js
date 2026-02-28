@@ -23,7 +23,7 @@ const STATUS_CLASS = {
 
 /* ── State ── */
 let allCountries = [];
-let currentView = 'grid'; // 'grid' | 'table'
+let currentView = 'grid'; // 'grid' | 'table' | 'map'
 let activeFilters = { status: 'all', sortBy: 'name', sortOrder: 'asc', search: '' };
 
 /* ── Bootstrap ── */
@@ -34,6 +34,7 @@ async function init() {
     const data = await res.json();
     allCountries = data.countries;
     populateSummary(allCountries);
+    initMap(allCountries);
     renderView();
     bindControls();
   } catch (err) {
@@ -87,8 +88,10 @@ function renderView() {
   const countries = getFilteredSorted();
   if (currentView === 'grid') {
     renderGrid(countries);
-  } else {
+  } else if (currentView === 'table') {
     renderTable(countries);
+  } else if (currentView === 'map') {
+    renderMapView();
   }
 }
 
@@ -96,6 +99,7 @@ function renderView() {
 function renderGrid(countries) {
   document.getElementById('countryGrid').classList.remove('hidden');
   document.getElementById('countryTableWrap').classList.add('hidden');
+  document.getElementById('mapContainer').classList.add('hidden');
 
   const grid = document.getElementById('countryGrid');
 
@@ -169,9 +173,17 @@ function indicatorRow(label, value, max = 1, displayVal = null) {
 }
 
 /* ── Table ── */
+function renderMapView() {
+  document.getElementById('countryGrid').classList.add('hidden');
+  document.getElementById('countryTableWrap').classList.add('hidden');
+  document.getElementById('mapContainer').classList.remove('hidden');
+  renderMap();
+}
+
 function renderTable(countries) {
   document.getElementById('countryGrid').classList.add('hidden');
   document.getElementById('countryTableWrap').classList.remove('hidden');
+  document.getElementById('mapContainer').classList.add('hidden');
 
   const tbody = document.getElementById('countryTableBody');
 
@@ -342,6 +354,7 @@ function bindControls() {
     currentView = 'grid';
     document.getElementById('btnGrid').classList.add('active');
     document.getElementById('btnTable').classList.remove('active');
+    document.getElementById('btnMap').classList.remove('active');
     renderView();
   });
 
@@ -349,6 +362,15 @@ function bindControls() {
     currentView = 'table';
     document.getElementById('btnTable').classList.add('active');
     document.getElementById('btnGrid').classList.remove('active');
+    document.getElementById('btnMap').classList.remove('active');
+    renderView();
+  });
+
+  document.getElementById('btnMap').addEventListener('click', () => {
+    currentView = 'map';
+    document.getElementById('btnMap').classList.add('active');
+    document.getElementById('btnGrid').classList.remove('active');
+    document.getElementById('btnTable').classList.remove('active');
     renderView();
   });
 

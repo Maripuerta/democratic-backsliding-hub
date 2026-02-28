@@ -303,6 +303,22 @@ a { color: inherit; }
   padding: 0.15rem 0.45rem;
 }
 
+/* ===== Map View ===== */
+.map-container {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  min-height: 420px;
+}
+
+.map-loading {
+  padding: 4rem;
+  text-align: center;
+  color: var(--gray-700);
+  font-style: italic;
+}
+
 /* ===== Table View ===== */
 .country-table-wrap {
   overflow-x: auto;
