@@ -17,8 +17,58 @@
       "DEED_event_counts": 3,
       "status_indicator": "at risk",
       "recent_events": [
-        { "year": 2022, "event": "Supreme Court independence challenged by executive branch", "severity": "medium" },
-        { "year": 2023, "event": "Milei elected; emergency economic powers granted amid austerity push", "severity": "medium" }
+        {
+          "year": 2022,
+          "event": "Supreme Court independence challenged by executive branch",
+          "severity": "medium"
+        },
+        {
+          "year": 2023,
+          "event": "Milei elected; emergency economic powers granted amid austerity push",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.8
+        },
+        {
+          "year": 2003,
+          "value": 0.81
+        },
+        {
+          "year": 2006,
+          "value": 0.83
+        },
+        {
+          "year": 2009,
+          "value": 0.84
+        },
+        {
+          "year": 2012,
+          "value": 0.85
+        },
+        {
+          "year": 2015,
+          "value": 0.86
+        },
+        {
+          "year": 2018,
+          "value": 0.83
+        },
+        {
+          "year": 2020,
+          "value": 0.82
+        },
+        {
+          "year": 2022,
+          "value": 0.81
+        },
+        {
+          "year": 2023,
+          "value": 0.81
+        }
       ]
     },
     {
@@ -44,8 +94,58 @@
       "DEED_event_counts": 5,
       "status_indicator": "backsliding",
       "recent_events": [
-        { "year": 2019, "event": "Disputed election results and military-backed ousting of Morales", "severity": "high" },
-        { "year": 2021, "event": "Arce government arrests opposition figures; rule of law concerns", "severity": "medium" }
+        {
+          "year": 2019,
+          "event": "Disputed election results and military-backed ousting of Morales",
+          "severity": "high"
+        },
+        {
+          "year": 2021,
+          "event": "Arce government arrests opposition figures; rule of law concerns",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.56
+        },
+        {
+          "year": 2003,
+          "value": 0.54
+        },
+        {
+          "year": 2006,
+          "value": 0.6
+        },
+        {
+          "year": 2009,
+          "value": 0.57
+        },
+        {
+          "year": 2012,
+          "value": 0.57
+        },
+        {
+          "year": 2015,
+          "value": 0.54
+        },
+        {
+          "year": 2018,
+          "value": 0.52
+        },
+        {
+          "year": 2020,
+          "value": 0.58
+        },
+        {
+          "year": 2022,
+          "value": 0.61
+        },
+        {
+          "year": 2023,
+          "value": 0.62
+        }
       ]
     },
     {
@@ -65,8 +165,58 @@
       "DEED_event_counts": 4,
       "status_indicator": "recovering",
       "recent_events": [
-        { "year": 2022, "event": "Bolsonaro refuses to accept election results; supporters storm Congress and Supreme Court", "severity": "high" },
-        { "year": 2023, "event": "January 8 rioters prosecuted; democratic resilience demonstrated", "severity": "medium" }
+        {
+          "year": 2022,
+          "event": "Bolsonaro refuses to accept election results; supporters storm Congress and Supreme Court",
+          "severity": "high"
+        },
+        {
+          "year": 2023,
+          "event": "January 8 rioters prosecuted; democratic resilience demonstrated",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.73
+        },
+        {
+          "year": 2003,
+          "value": 0.75
+        },
+        {
+          "year": 2006,
+          "value": 0.77
+        },
+        {
+          "year": 2009,
+          "value": 0.79
+        },
+        {
+          "year": 2012,
+          "value": 0.8
+        },
+        {
+          "year": 2015,
+          "value": 0.79
+        },
+        {
+          "year": 2018,
+          "value": 0.73
+        },
+        {
+          "year": 2020,
+          "value": 0.7
+        },
+        {
+          "year": 2022,
+          "value": 0.72
+        },
+        {
+          "year": 2023,
+          "value": 0.78
+        }
       ]
     },
     {
@@ -79,8 +229,58 @@
       "DEED_event_counts": 2,
       "status_indicator": "stable",
       "recent_events": [
-        { "year": 2019, "event": "Mass protests over inequality; state of emergency declared", "severity": "medium" },
-        { "year": 2022, "event": "Constitutional referendum rejected; democratic debate continues", "severity": "low" }
+        {
+          "year": 2019,
+          "event": "Mass protests over inequality; state of emergency declared",
+          "severity": "medium"
+        },
+        {
+          "year": 2022,
+          "event": "Constitutional referendum rejected; democratic debate continues",
+          "severity": "low"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.83
+        },
+        {
+          "year": 2003,
+          "value": 0.84
+        },
+        {
+          "year": 2006,
+          "value": 0.85
+        },
+        {
+          "year": 2009,
+          "value": 0.85
+        },
+        {
+          "year": 2012,
+          "value": 0.86
+        },
+        {
+          "year": 2015,
+          "value": 0.86
+        },
+        {
+          "year": 2018,
+          "value": 0.86
+        },
+        {
+          "year": 2020,
+          "value": 0.86
+        },
+        {
+          "year": 2022,
+          "value": 0.86
+        },
+        {
+          "year": 2023,
+          "value": 0.86
+        }
       ]
     },
     {
@@ -100,8 +300,58 @@
       "DEED_event_counts": 3,
       "status_indicator": "at risk",
       "recent_events": [
-        { "year": 2021, "event": "Security forces respond violently to anti-government protests", "severity": "high" },
-        { "year": 2022, "event": "First leftist president Petro elected; polarization deepens", "severity": "low" }
+        {
+          "year": 2021,
+          "event": "Security forces respond violently to anti-government protests",
+          "severity": "high"
+        },
+        {
+          "year": 2022,
+          "event": "First leftist president Petro elected; polarization deepens",
+          "severity": "low"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.53
+        },
+        {
+          "year": 2003,
+          "value": 0.54
+        },
+        {
+          "year": 2006,
+          "value": 0.57
+        },
+        {
+          "year": 2009,
+          "value": 0.59
+        },
+        {
+          "year": 2012,
+          "value": 0.61
+        },
+        {
+          "year": 2015,
+          "value": 0.63
+        },
+        {
+          "year": 2018,
+          "value": 0.64
+        },
+        {
+          "year": 2020,
+          "value": 0.65
+        },
+        {
+          "year": 2022,
+          "value": 0.66
+        },
+        {
+          "year": 2023,
+          "value": 0.67
+        }
       ]
     },
     {
@@ -114,7 +364,53 @@
       "DEED_event_counts": 1,
       "status_indicator": "stable",
       "recent_events": [
-        { "year": 2023, "event": "Strengthened anti-corruption measures and judicial independence reforms", "severity": "low" }
+        {
+          "year": 2023,
+          "event": "Strengthened anti-corruption measures and judicial independence reforms",
+          "severity": "low"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.87
+        },
+        {
+          "year": 2003,
+          "value": 0.87
+        },
+        {
+          "year": 2006,
+          "value": 0.88
+        },
+        {
+          "year": 2009,
+          "value": 0.88
+        },
+        {
+          "year": 2012,
+          "value": 0.88
+        },
+        {
+          "year": 2015,
+          "value": 0.88
+        },
+        {
+          "year": 2018,
+          "value": 0.88
+        },
+        {
+          "year": 2020,
+          "value": 0.88
+        },
+        {
+          "year": 2022,
+          "value": 0.88
+        },
+        {
+          "year": 2023,
+          "value": 0.88
+        }
       ]
     },
     {
@@ -134,22 +430,122 @@
       "DEED_event_counts": 6,
       "status_indicator": "autocracy",
       "recent_events": [
-        { "year": 2021, "event": "Largest anti-government protests since 1994; hundreds arrested", "severity": "high" },
-        { "year": 2022, "event": "New constitution approved; opposition candidates barred from running", "severity": "high" }
+        {
+          "year": 2021,
+          "event": "Largest anti-government protests since 1994; hundreds arrested",
+          "severity": "high"
+        },
+        {
+          "year": 2022,
+          "event": "New constitution approved; opposition candidates barred from running",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.06
+        },
+        {
+          "year": 2003,
+          "value": 0.06
+        },
+        {
+          "year": 2006,
+          "value": 0.06
+        },
+        {
+          "year": 2009,
+          "value": 0.06
+        },
+        {
+          "year": 2012,
+          "value": 0.06
+        },
+        {
+          "year": 2015,
+          "value": 0.06
+        },
+        {
+          "year": 2018,
+          "value": 0.06
+        },
+        {
+          "year": 2020,
+          "value": 0.06
+        },
+        {
+          "year": 2022,
+          "value": 0.06
+        },
+        {
+          "year": 2023,
+          "value": 0.06
+        }
       ]
     },
     {
       "name": "Dominican Republic",
       "iso2": "DO",
-      "V-Dem_polyarchy_index": 0.60,
+      "V-Dem_polyarchy_index": 0.6,
       "libdem_index": 0.42,
       "ERT_episodes": [],
       "BTI_governance_score": 6.2,
       "DEED_event_counts": 2,
       "status_indicator": "at risk",
       "recent_events": [
-        { "year": 2020, "event": "Peaceful transfer of power after disputed 2019 elections", "severity": "low" },
-        { "year": 2023, "event": "Media freedom concerns; journalists self-censor", "severity": "medium" }
+        {
+          "year": 2020,
+          "event": "Peaceful transfer of power after disputed 2019 elections",
+          "severity": "low"
+        },
+        {
+          "year": 2023,
+          "event": "Media freedom concerns; journalists self-censor",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.5
+        },
+        {
+          "year": 2003,
+          "value": 0.52
+        },
+        {
+          "year": 2006,
+          "value": 0.54
+        },
+        {
+          "year": 2009,
+          "value": 0.56
+        },
+        {
+          "year": 2012,
+          "value": 0.57
+        },
+        {
+          "year": 2015,
+          "value": 0.58
+        },
+        {
+          "year": 2018,
+          "value": 0.59
+        },
+        {
+          "year": 2020,
+          "value": 0.59
+        },
+        {
+          "year": 2022,
+          "value": 0.6
+        },
+        {
+          "year": 2023,
+          "value": 0.6
+        }
       ]
     },
     {
@@ -169,8 +565,58 @@
       "DEED_event_counts": 4,
       "status_indicator": "at risk",
       "recent_events": [
-        { "year": 2023, "event": "President Noboa dissolves National Assembly amid political crisis; snap elections held", "severity": "high" },
-        { "year": 2023, "event": "Presidential candidate Villavicencio assassinated days before election", "severity": "high" }
+        {
+          "year": 2023,
+          "event": "President Noboa dissolves National Assembly amid political crisis; snap elections held",
+          "severity": "high"
+        },
+        {
+          "year": 2023,
+          "event": "Presidential candidate Villavicencio assassinated days before election",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.61
+        },
+        {
+          "year": 2003,
+          "value": 0.62
+        },
+        {
+          "year": 2006,
+          "value": 0.6
+        },
+        {
+          "year": 2009,
+          "value": 0.57
+        },
+        {
+          "year": 2012,
+          "value": 0.56
+        },
+        {
+          "year": 2015,
+          "value": 0.55
+        },
+        {
+          "year": 2018,
+          "value": 0.61
+        },
+        {
+          "year": 2020,
+          "value": 0.63
+        },
+        {
+          "year": 2022,
+          "value": 0.64
+        },
+        {
+          "year": 2023,
+          "value": 0.65
+        }
       ]
     },
     {
@@ -190,9 +636,63 @@
       "DEED_event_counts": 7,
       "status_indicator": "backsliding",
       "recent_events": [
-        { "year": 2021, "event": "Congress dismisses Supreme Court justices and attorney general on first day of session", "severity": "high" },
-        { "year": 2022, "event": "State of emergency suspends due process rights; over 50,000 arrested", "severity": "high" },
-        { "year": 2024, "event": "Bukele re-elected despite constitutional ban on consecutive terms", "severity": "high" }
+        {
+          "year": 2021,
+          "event": "Congress dismisses Supreme Court justices and attorney general on first day of session",
+          "severity": "high"
+        },
+        {
+          "year": 2022,
+          "event": "State of emergency suspends due process rights; over 50,000 arrested",
+          "severity": "high"
+        },
+        {
+          "year": 2024,
+          "event": "Bukele re-elected despite constitutional ban on consecutive terms",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.6
+        },
+        {
+          "year": 2003,
+          "value": 0.62
+        },
+        {
+          "year": 2006,
+          "value": 0.64
+        },
+        {
+          "year": 2009,
+          "value": 0.65
+        },
+        {
+          "year": 2012,
+          "value": 0.66
+        },
+        {
+          "year": 2015,
+          "value": 0.67
+        },
+        {
+          "year": 2018,
+          "value": 0.66
+        },
+        {
+          "year": 2020,
+          "value": 0.57
+        },
+        {
+          "year": 2022,
+          "value": 0.5
+        },
+        {
+          "year": 2023,
+          "value": 0.46
+        }
       ]
     },
     {
@@ -212,9 +712,63 @@
       "DEED_event_counts": 5,
       "status_indicator": "backsliding",
       "recent_events": [
-        { "year": 2019, "event": "Guatemala expels UN anti-corruption commission CICIG", "severity": "high" },
-        { "year": 2023, "event": "Arévalo wins presidency; incumbent government attempts to annul results", "severity": "high" },
-        { "year": 2024, "event": "Arévalo inaugurated after months of legal obstruction by outgoing AG", "severity": "medium" }
+        {
+          "year": 2019,
+          "event": "Guatemala expels UN anti-corruption commission CICIG",
+          "severity": "high"
+        },
+        {
+          "year": 2023,
+          "event": "Ar\u00e9valo wins presidency; incumbent government attempts to annul results",
+          "severity": "high"
+        },
+        {
+          "year": 2024,
+          "event": "Ar\u00e9valo inaugurated after months of legal obstruction by outgoing AG",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.56
+        },
+        {
+          "year": 2003,
+          "value": 0.56
+        },
+        {
+          "year": 2006,
+          "value": 0.57
+        },
+        {
+          "year": 2009,
+          "value": 0.57
+        },
+        {
+          "year": 2012,
+          "value": 0.57
+        },
+        {
+          "year": 2015,
+          "value": 0.56
+        },
+        {
+          "year": 2018,
+          "value": 0.53
+        },
+        {
+          "year": 2020,
+          "value": 0.52
+        },
+        {
+          "year": 2022,
+          "value": 0.52
+        },
+        {
+          "year": 2023,
+          "value": 0.52
+        }
       ]
     },
     {
@@ -227,16 +781,70 @@
           "type": "autocratization",
           "start_year": 2009,
           "end_year": null,
-          "description": "Post-coup environment and Hernández era marked by judicial capture, drug ties, and electoral manipulation."
+          "description": "Post-coup environment and Hern\u00e1ndez era marked by judicial capture, drug ties, and electoral manipulation."
         }
       ],
       "BTI_governance_score": 4.5,
       "DEED_event_counts": 6,
       "status_indicator": "backsliding",
       "recent_events": [
-        { "year": 2017, "event": "Contested re-election of Hernández amid fraud allegations; protests suppressed", "severity": "high" },
-        { "year": 2022, "event": "Castro elected; Hernández extradited to US on drug trafficking charges", "severity": "medium" },
-        { "year": 2023, "event": "Concerns about undue influence of former president Zelaya on current administration", "severity": "medium" }
+        {
+          "year": 2017,
+          "event": "Contested re-election of Hern\u00e1ndez amid fraud allegations; protests suppressed",
+          "severity": "high"
+        },
+        {
+          "year": 2022,
+          "event": "Castro elected; Hern\u00e1ndez extradited to US on drug trafficking charges",
+          "severity": "medium"
+        },
+        {
+          "year": 2023,
+          "event": "Concerns about undue influence of former president Zelaya on current administration",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.57
+        },
+        {
+          "year": 2003,
+          "value": 0.57
+        },
+        {
+          "year": 2006,
+          "value": 0.57
+        },
+        {
+          "year": 2009,
+          "value": 0.48
+        },
+        {
+          "year": 2012,
+          "value": 0.47
+        },
+        {
+          "year": 2015,
+          "value": 0.46
+        },
+        {
+          "year": 2018,
+          "value": 0.43
+        },
+        {
+          "year": 2020,
+          "value": 0.43
+        },
+        {
+          "year": 2022,
+          "value": 0.43
+        },
+        {
+          "year": 2023,
+          "value": 0.43
+        }
       ]
     },
     {
@@ -256,9 +864,63 @@
       "DEED_event_counts": 5,
       "status_indicator": "backsliding",
       "recent_events": [
-        { "year": 2023, "event": "Electoral authority (INE) budget slashed; independent leadership removed by Congress", "severity": "high" },
-        { "year": 2024, "event": "Constitutional reform eliminates judicial independence; judges to be elected by popular vote", "severity": "high" },
-        { "year": 2024, "event": "Sheinbaum wins with supermajority; military given expanded civilian roles", "severity": "medium" }
+        {
+          "year": 2023,
+          "event": "Electoral authority (INE) budget slashed; independent leadership removed by Congress",
+          "severity": "high"
+        },
+        {
+          "year": 2024,
+          "event": "Constitutional reform eliminates judicial independence; judges to be elected by popular vote",
+          "severity": "high"
+        },
+        {
+          "year": 2024,
+          "event": "Sheinbaum wins with supermajority; military given expanded civilian roles",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.54
+        },
+        {
+          "year": 2003,
+          "value": 0.58
+        },
+        {
+          "year": 2006,
+          "value": 0.61
+        },
+        {
+          "year": 2009,
+          "value": 0.63
+        },
+        {
+          "year": 2012,
+          "value": 0.64
+        },
+        {
+          "year": 2015,
+          "value": 0.65
+        },
+        {
+          "year": 2018,
+          "value": 0.63
+        },
+        {
+          "year": 2020,
+          "value": 0.61
+        },
+        {
+          "year": 2022,
+          "value": 0.6
+        },
+        {
+          "year": 2023,
+          "value": 0.59
+        }
       ]
     },
     {
@@ -278,9 +940,63 @@
       "DEED_event_counts": 9,
       "status_indicator": "autocracy",
       "recent_events": [
-        { "year": 2021, "event": "All major opposition presidential candidates arrested before election", "severity": "high" },
-        { "year": 2023, "event": "Catholic bishop and 222 political prisoners deported to United States", "severity": "high" },
-        { "year": 2023, "event": "University of Central America shut down; Catholic orders expelled from country", "severity": "high" }
+        {
+          "year": 2021,
+          "event": "All major opposition presidential candidates arrested before election",
+          "severity": "high"
+        },
+        {
+          "year": 2023,
+          "event": "Catholic bishop and 222 political prisoners deported to United States",
+          "severity": "high"
+        },
+        {
+          "year": 2023,
+          "event": "University of Central America shut down; Catholic orders expelled from country",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.53
+        },
+        {
+          "year": 2003,
+          "value": 0.52
+        },
+        {
+          "year": 2006,
+          "value": 0.52
+        },
+        {
+          "year": 2009,
+          "value": 0.52
+        },
+        {
+          "year": 2012,
+          "value": 0.5
+        },
+        {
+          "year": 2015,
+          "value": 0.44
+        },
+        {
+          "year": 2018,
+          "value": 0.29
+        },
+        {
+          "year": 2020,
+          "value": 0.19
+        },
+        {
+          "year": 2022,
+          "value": 0.17
+        },
+        {
+          "year": 2023,
+          "value": 0.17
+        }
       ]
     },
     {
@@ -293,8 +1009,58 @@
       "DEED_event_counts": 2,
       "status_indicator": "at risk",
       "recent_events": [
-        { "year": 2023, "event": "Mass protests over copper mine contract force government to close mine", "severity": "medium" },
-        { "year": 2024, "event": "Mulino elected president after Martinelli conviction; democratic norms questioned", "severity": "medium" }
+        {
+          "year": 2023,
+          "event": "Mass protests over copper mine contract force government to close mine",
+          "severity": "medium"
+        },
+        {
+          "year": 2024,
+          "event": "Mulino elected president after Martinelli conviction; democratic norms questioned",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.65
+        },
+        {
+          "year": 2003,
+          "value": 0.66
+        },
+        {
+          "year": 2006,
+          "value": 0.67
+        },
+        {
+          "year": 2009,
+          "value": 0.69
+        },
+        {
+          "year": 2012,
+          "value": 0.7
+        },
+        {
+          "year": 2015,
+          "value": 0.72
+        },
+        {
+          "year": 2018,
+          "value": 0.72
+        },
+        {
+          "year": 2020,
+          "value": 0.72
+        },
+        {
+          "year": 2022,
+          "value": 0.72
+        },
+        {
+          "year": 2023,
+          "value": 0.72
+        }
       ]
     },
     {
@@ -314,15 +1080,65 @@
       "DEED_event_counts": 3,
       "status_indicator": "at risk",
       "recent_events": [
-        { "year": 2023, "event": "Peña elected; Colorado Party retains power amid corruption allegations", "severity": "medium" },
-        { "year": 2023, "event": "US sanctions ex-president Cartes for corruption and links to Hezbollah", "severity": "medium" }
+        {
+          "year": 2023,
+          "event": "Pe\u00f1a elected; Colorado Party retains power amid corruption allegations",
+          "severity": "medium"
+        },
+        {
+          "year": 2023,
+          "event": "US sanctions ex-president Cartes for corruption and links to Hezbollah",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.62
+        },
+        {
+          "year": 2003,
+          "value": 0.6
+        },
+        {
+          "year": 2006,
+          "value": 0.61
+        },
+        {
+          "year": 2009,
+          "value": 0.61
+        },
+        {
+          "year": 2012,
+          "value": 0.57
+        },
+        {
+          "year": 2015,
+          "value": 0.58
+        },
+        {
+          "year": 2018,
+          "value": 0.57
+        },
+        {
+          "year": 2020,
+          "value": 0.57
+        },
+        {
+          "year": 2022,
+          "value": 0.57
+        },
+        {
+          "year": 2023,
+          "value": 0.57
+        }
       ]
     },
     {
       "name": "Peru",
       "iso2": "PE",
-      "V-Dem_polyarchy_index": 0.60,
-      "libdem_index": 0.40,
+      "V-Dem_polyarchy_index": 0.6,
+      "libdem_index": 0.4,
       "ERT_episodes": [
         {
           "type": "crisis",
@@ -335,9 +1151,63 @@
       "DEED_event_counts": 6,
       "status_indicator": "backsliding",
       "recent_events": [
-        { "year": 2022, "event": "President Castillo attempts self-coup; arrested hours later and impeached", "severity": "high" },
-        { "year": 2023, "event": "Boluarte government declares state of emergency; 49 protesters killed", "severity": "high" },
-        { "year": 2023, "event": "Congress moves to close Constitutional Tribunal; democratic erosion accelerates", "severity": "medium" }
+        {
+          "year": 2022,
+          "event": "President Castillo attempts self-coup; arrested hours later and impeached",
+          "severity": "high"
+        },
+        {
+          "year": 2023,
+          "event": "Boluarte government declares state of emergency; 49 protesters killed",
+          "severity": "high"
+        },
+        {
+          "year": 2023,
+          "event": "Congress moves to close Constitutional Tribunal; democratic erosion accelerates",
+          "severity": "medium"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.51
+        },
+        {
+          "year": 2003,
+          "value": 0.69
+        },
+        {
+          "year": 2006,
+          "value": 0.68
+        },
+        {
+          "year": 2009,
+          "value": 0.67
+        },
+        {
+          "year": 2012,
+          "value": 0.66
+        },
+        {
+          "year": 2015,
+          "value": 0.65
+        },
+        {
+          "year": 2018,
+          "value": 0.63
+        },
+        {
+          "year": 2020,
+          "value": 0.61
+        },
+        {
+          "year": 2022,
+          "value": 0.6
+        },
+        {
+          "year": 2023,
+          "value": 0.6
+        }
       ]
     },
     {
@@ -350,7 +1220,53 @@
       "DEED_event_counts": 1,
       "status_indicator": "stable",
       "recent_events": [
-        { "year": 2020, "event": "First peaceful left-to-right power transfer in 15 years demonstrates democratic consolidation", "severity": "low" }
+        {
+          "year": 2020,
+          "event": "First peaceful left-to-right power transfer in 15 years demonstrates democratic consolidation",
+          "severity": "low"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.86
+        },
+        {
+          "year": 2003,
+          "value": 0.87
+        },
+        {
+          "year": 2006,
+          "value": 0.87
+        },
+        {
+          "year": 2009,
+          "value": 0.88
+        },
+        {
+          "year": 2012,
+          "value": 0.88
+        },
+        {
+          "year": 2015,
+          "value": 0.88
+        },
+        {
+          "year": 2018,
+          "value": 0.88
+        },
+        {
+          "year": 2020,
+          "value": 0.88
+        },
+        {
+          "year": 2022,
+          "value": 0.88
+        },
+        {
+          "year": 2023,
+          "value": 0.88
+        }
       ]
     },
     {
@@ -370,8 +1286,58 @@
       "DEED_event_counts": 10,
       "status_indicator": "autocracy",
       "recent_events": [
-        { "year": 2024, "event": "Maduro claims victory in presidential election; opposition produces evidence of widespread fraud", "severity": "high" },
-        { "year": 2024, "event": "Widespread arrests of opposition members, civil society actors, and election witnesses post-election", "severity": "high" }
+        {
+          "year": 2024,
+          "event": "Maduro claims victory in presidential election; opposition produces evidence of widespread fraud",
+          "severity": "high"
+        },
+        {
+          "year": 2024,
+          "event": "Widespread arrests of opposition members, civil society actors, and election witnesses post-election",
+          "severity": "high"
+        }
+      ],
+      "polyarchy_trend": [
+        {
+          "year": 2000,
+          "value": 0.52
+        },
+        {
+          "year": 2003,
+          "value": 0.47
+        },
+        {
+          "year": 2006,
+          "value": 0.41
+        },
+        {
+          "year": 2009,
+          "value": 0.35
+        },
+        {
+          "year": 2012,
+          "value": 0.28
+        },
+        {
+          "year": 2015,
+          "value": 0.18
+        },
+        {
+          "year": 2018,
+          "value": 0.12
+        },
+        {
+          "year": 2020,
+          "value": 0.1
+        },
+        {
+          "year": 2022,
+          "value": 0.09
+        },
+        {
+          "year": 2023,
+          "value": 0.09
+        }
       ]
     }
   ]

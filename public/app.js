@@ -294,6 +294,9 @@ function openModal(country) {
       </li>`).join('');
   }
 
+  // Trend chart
+  renderTrendChart(country);
+
   overlay.classList.remove('hidden');
   document.body.style.overflow = 'hidden';
 
@@ -303,6 +306,73 @@ function openModal(country) {
       animateModalBars();
     });
   });
+}
+
+/* ── Trend sparkline chart ── */
+function renderTrendChart(country) {
+  const container = document.getElementById('trendChart');
+  const pts = country.polyarchy_trend;
+  if (!pts || pts.length < 2) {
+    container.innerHTML = '<p style="font-size:.86rem;font-style:italic;color:#666">No trend data available.</p>';
+    return;
+  }
+
+  const W = 560, H = 120, PAD = { top: 10, right: 10, bottom: 22, left: 32 };
+  const iW = W - PAD.left - PAD.right;
+  const iH = H - PAD.top  - PAD.bottom;
+
+  const years  = pts.map(p => p.year);
+  const values = pts.map(p => p.value);
+  const minY = 0, maxY = 1;
+  const minX = years[0], maxX = years[years.length - 1];
+
+  const xScale = y => PAD.left + ((y - minX) / (maxX - minX)) * iW;
+  const yScale = v => PAD.top  + (1 - (v - minY) / (maxY - minY)) * iH;
+
+  // Determine trend color: compare first half average to last value
+  const midVal  = values[Math.floor(values.length / 2)];
+  const lastVal = values[values.length - 1];
+  const trendColor = lastVal >= midVal ? '#2e7d32' : '#b71c1c';
+
+  // Build SVG path
+  const linePts = pts.map(p => `${xScale(p.year).toFixed(1)},${yScale(p.value).toFixed(1)}`).join(' ');
+  const areaBase = yScale(0);
+  const areaPts  = `${xScale(minX)},${areaBase} ` + linePts + ` ${xScale(maxX)},${areaBase}`;
+
+  // Tick years for x-axis
+  const tickYears = years.filter((_, i) => i % 3 === 0);
+  const xTicks = tickYears.map(y =>
+    `<line x1="${xScale(y).toFixed(1)}" y1="${PAD.top + iH}" x2="${xScale(y).toFixed(1)}" y2="${PAD.top + iH + 4}" stroke="#999" stroke-width="1"/>
+     <text x="${xScale(y).toFixed(1)}" y="${H - 3}" text-anchor="middle" font-size="9" fill="#888">${y}</text>`
+  ).join('');
+
+  // Horizontal reference lines at 0.25, 0.5, 0.75
+  const hLines = [0.25, 0.5, 0.75].map(v =>
+    `<line x1="${PAD.left}" y1="${yScale(v).toFixed(1)}" x2="${PAD.left + iW}" y2="${yScale(v).toFixed(1)}" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="3,3"/>
+     <text x="${PAD.left - 4}" y="${(yScale(v) + 3).toFixed(1)}" text-anchor="end" font-size="8" fill="#aaa">${v.toFixed(2)}</text>`
+  ).join('');
+
+  // Dots for each data point
+  const dots = pts.map(p =>
+    `<circle cx="${xScale(p.year).toFixed(1)}" cy="${yScale(p.value).toFixed(1)}" r="3" fill="${trendColor}" stroke="#fff" stroke-width="1.5"/>`
+  ).join('');
+
+  // Last value label
+  const lastX = xScale(maxX).toFixed(1);
+  const lastY = yScale(lastVal).toFixed(1);
+
+  container.innerHTML = `
+    <svg viewBox="0 0 ${W} ${H}" width="100%" style="display:block;overflow:visible">
+      ${hLines}
+      <polyline points="${linePts}" fill="none" stroke="${trendColor}" stroke-width="2" stroke-linejoin="round"/>
+      <polygon  points="${areaPts}" fill="${trendColor}" opacity="0.08"/>
+      ${dots}
+      <text x="${parseFloat(lastX) + 6}" y="${parseFloat(lastY) + 4}" font-size="10" font-weight="700" fill="${trendColor}">${lastVal.toFixed(2)}</text>
+      ${xTicks}
+      <line x1="${PAD.left}" y1="${PAD.top}" x2="${PAD.left}" y2="${PAD.top + iH}" stroke="#ccc" stroke-width="1"/>
+    </svg>
+    <p style="font-size:0.72rem;color:#999;margin-top:0.25rem">V-Dem Electoral Democracy Index (0–1). Higher = more democratic.</p>
+  `;
 }
 
 function setModalBar(barId, valId, value, max = 1, displayOverride = null) {
