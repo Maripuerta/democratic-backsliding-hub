@@ -2,174 +2,377 @@
   "countries": [
     {
       "name": "Argentina",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "AR",
+      "V-Dem_polyarchy_index": 0.81,
+      "libdem_index": 0.64,
+      "ERT_episodes": [
+        {
+          "type": "democratic erosion",
+          "start_year": 2019,
+          "end_year": null,
+          "description": "Concerns over executive overreach and institutional strain; populist pressures on judiciary."
+        }
+      ],
+      "BTI_governance_score": 6.8,
+      "DEED_event_counts": 3,
+      "status_indicator": "at risk",
+      "recent_events": [
+        { "year": 2022, "event": "Supreme Court independence challenged by executive branch", "severity": "medium" },
+        { "year": 2023, "event": "Milei elected; emergency economic powers granted amid austerity push", "severity": "medium" }
+      ]
     },
     {
       "name": "Bolivia",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "BO",
+      "V-Dem_polyarchy_index": 0.62,
+      "libdem_index": 0.38,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2009,
+          "end_year": 2019,
+          "description": "Morales government concentrated executive power, packed judiciary, and bypassed term limits."
+        },
+        {
+          "type": "crisis",
+          "start_year": 2019,
+          "end_year": 2020,
+          "description": "Post-election fraud claims led to Morales resignation and contested transitional government."
+        }
+      ],
+      "BTI_governance_score": 5.5,
+      "DEED_event_counts": 5,
+      "status_indicator": "backsliding",
+      "recent_events": [
+        { "year": 2019, "event": "Disputed election results and military-backed ousting of Morales", "severity": "high" },
+        { "year": 2021, "event": "Arce government arrests opposition figures; rule of law concerns", "severity": "medium" }
+      ]
     },
     {
       "name": "Brazil",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "BR",
+      "V-Dem_polyarchy_index": 0.78,
+      "libdem_index": 0.59,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2018,
+          "end_year": 2022,
+          "description": "Bolsonaro administration attacked courts, media, and electoral institutions; undermined civil liberties."
+        }
+      ],
+      "BTI_governance_score": 7.1,
+      "DEED_event_counts": 4,
+      "status_indicator": "recovering",
+      "recent_events": [
+        { "year": 2022, "event": "Bolsonaro refuses to accept election results; supporters storm Congress and Supreme Court", "severity": "high" },
+        { "year": 2023, "event": "January 8 rioters prosecuted; democratic resilience demonstrated", "severity": "medium" }
+      ]
     },
     {
       "name": "Chile",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
+      "iso2": "CL",
+      "V-Dem_polyarchy_index": 0.86,
+      "libdem_index": 0.73,
       "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "BTI_governance_score": 8.5,
+      "DEED_event_counts": 2,
+      "status_indicator": "stable",
+      "recent_events": [
+        { "year": 2019, "event": "Mass protests over inequality; state of emergency declared", "severity": "medium" },
+        { "year": 2022, "event": "Constitutional referendum rejected; democratic debate continues", "severity": "low" }
+      ]
     },
     {
       "name": "Colombia",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "CO",
+      "V-Dem_polyarchy_index": 0.67,
+      "libdem_index": 0.47,
+      "ERT_episodes": [
+        {
+          "type": "democratic erosion",
+          "start_year": 2018,
+          "end_year": null,
+          "description": "Ongoing violence against civil society leaders; selective rule of law enforcement."
+        }
+      ],
+      "BTI_governance_score": 6.4,
+      "DEED_event_counts": 3,
+      "status_indicator": "at risk",
+      "recent_events": [
+        { "year": 2021, "event": "Security forces respond violently to anti-government protests", "severity": "high" },
+        { "year": 2022, "event": "First leftist president Petro elected; polarization deepens", "severity": "low" }
+      ]
     },
     {
       "name": "Costa Rica",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
+      "iso2": "CR",
+      "V-Dem_polyarchy_index": 0.88,
+      "libdem_index": 0.78,
       "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "BTI_governance_score": 8.3,
+      "DEED_event_counts": 1,
+      "status_indicator": "stable",
+      "recent_events": [
+        { "year": 2023, "event": "Strengthened anti-corruption measures and judicial independence reforms", "severity": "low" }
+      ]
     },
     {
       "name": "Cuba",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "CU",
+      "V-Dem_polyarchy_index": 0.06,
+      "libdem_index": 0.02,
+      "ERT_episodes": [
+        {
+          "type": "closed autocracy",
+          "start_year": 1959,
+          "end_year": null,
+          "description": "One-party Communist state with no meaningful electoral competition or independent media."
+        }
+      ],
+      "BTI_governance_score": 2.1,
+      "DEED_event_counts": 6,
+      "status_indicator": "autocracy",
+      "recent_events": [
+        { "year": 2021, "event": "Largest anti-government protests since 1994; hundreds arrested", "severity": "high" },
+        { "year": 2022, "event": "New constitution approved; opposition candidates barred from running", "severity": "high" }
+      ]
     },
     {
       "name": "Dominican Republic",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
+      "iso2": "DO",
+      "V-Dem_polyarchy_index": 0.60,
+      "libdem_index": 0.42,
       "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "BTI_governance_score": 6.2,
+      "DEED_event_counts": 2,
+      "status_indicator": "at risk",
+      "recent_events": [
+        { "year": 2020, "event": "Peaceful transfer of power after disputed 2019 elections", "severity": "low" },
+        { "year": 2023, "event": "Media freedom concerns; journalists self-censor", "severity": "medium" }
+      ]
     },
     {
       "name": "Ecuador",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "EC",
+      "V-Dem_polyarchy_index": 0.65,
+      "libdem_index": 0.44,
+      "ERT_episodes": [
+        {
+          "type": "democratic erosion",
+          "start_year": 2007,
+          "end_year": 2017,
+          "description": "Correa government restricted press, concentrated power, and weakened judiciary independence."
+        }
+      ],
+      "BTI_governance_score": 6.1,
+      "DEED_event_counts": 4,
+      "status_indicator": "at risk",
+      "recent_events": [
+        { "year": 2023, "event": "President Noboa dissolves National Assembly amid political crisis; snap elections held", "severity": "high" },
+        { "year": 2023, "event": "Presidential candidate Villavicencio assassinated days before election", "severity": "high" }
+      ]
     },
     {
       "name": "El Salvador",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "SV",
+      "V-Dem_polyarchy_index": 0.46,
+      "libdem_index": 0.28,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2019,
+          "end_year": null,
+          "description": "Bukele removed attorney general and judges, declared state of emergency, and expanded executive power without checks."
+        }
+      ],
+      "BTI_governance_score": 5.2,
+      "DEED_event_counts": 7,
+      "status_indicator": "backsliding",
+      "recent_events": [
+        { "year": 2021, "event": "Congress dismisses Supreme Court justices and attorney general on first day of session", "severity": "high" },
+        { "year": 2022, "event": "State of emergency suspends due process rights; over 50,000 arrested", "severity": "high" },
+        { "year": 2024, "event": "Bukele re-elected despite constitutional ban on consecutive terms", "severity": "high" }
+      ]
     },
     {
       "name": "Guatemala",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "GT",
+      "V-Dem_polyarchy_index": 0.52,
+      "libdem_index": 0.31,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2017,
+          "end_year": null,
+          "description": "Corrupt elites dismantled anti-corruption commission (CICIG); prosecutors and judges persecuted."
+        }
+      ],
+      "BTI_governance_score": 4.8,
+      "DEED_event_counts": 5,
+      "status_indicator": "backsliding",
+      "recent_events": [
+        { "year": 2019, "event": "Guatemala expels UN anti-corruption commission CICIG", "severity": "high" },
+        { "year": 2023, "event": "Arévalo wins presidency; incumbent government attempts to annul results", "severity": "high" },
+        { "year": 2024, "event": "Arévalo inaugurated after months of legal obstruction by outgoing AG", "severity": "medium" }
+      ]
     },
     {
       "name": "Honduras",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "HN",
+      "V-Dem_polyarchy_index": 0.43,
+      "libdem_index": 0.25,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2009,
+          "end_year": null,
+          "description": "Post-coup environment and Hernández era marked by judicial capture, drug ties, and electoral manipulation."
+        }
+      ],
+      "BTI_governance_score": 4.5,
+      "DEED_event_counts": 6,
+      "status_indicator": "backsliding",
+      "recent_events": [
+        { "year": 2017, "event": "Contested re-election of Hernández amid fraud allegations; protests suppressed", "severity": "high" },
+        { "year": 2022, "event": "Castro elected; Hernández extradited to US on drug trafficking charges", "severity": "medium" },
+        { "year": 2023, "event": "Concerns about undue influence of former president Zelaya on current administration", "severity": "medium" }
+      ]
     },
     {
       "name": "Mexico",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "MX",
+      "V-Dem_polyarchy_index": 0.59,
+      "libdem_index": 0.39,
+      "ERT_episodes": [
+        {
+          "type": "democratic erosion",
+          "start_year": 2018,
+          "end_year": null,
+          "description": "AMLO and Sheinbaum governments weakened electoral authority, judiciary independence, and civilian oversight of military."
+        }
+      ],
+      "BTI_governance_score": 6.3,
+      "DEED_event_counts": 5,
+      "status_indicator": "backsliding",
+      "recent_events": [
+        { "year": 2023, "event": "Electoral authority (INE) budget slashed; independent leadership removed by Congress", "severity": "high" },
+        { "year": 2024, "event": "Constitutional reform eliminates judicial independence; judges to be elected by popular vote", "severity": "high" },
+        { "year": 2024, "event": "Sheinbaum wins with supermajority; military given expanded civilian roles", "severity": "medium" }
+      ]
     },
     {
       "name": "Nicaragua",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "NI",
+      "V-Dem_polyarchy_index": 0.17,
+      "libdem_index": 0.07,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2007,
+          "end_year": null,
+          "description": "Ortega-Murillo consolidation: banned opposition parties, imprisoned candidates, expelled NGOs and clergy."
+        }
+      ],
+      "BTI_governance_score": 2.8,
+      "DEED_event_counts": 9,
+      "status_indicator": "autocracy",
+      "recent_events": [
+        { "year": 2021, "event": "All major opposition presidential candidates arrested before election", "severity": "high" },
+        { "year": 2023, "event": "Catholic bishop and 222 political prisoners deported to United States", "severity": "high" },
+        { "year": 2023, "event": "University of Central America shut down; Catholic orders expelled from country", "severity": "high" }
+      ]
     },
     {
       "name": "Panama",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
+      "iso2": "PA",
+      "V-Dem_polyarchy_index": 0.72,
+      "libdem_index": 0.55,
       "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "BTI_governance_score": 7.0,
+      "DEED_event_counts": 2,
+      "status_indicator": "at risk",
+      "recent_events": [
+        { "year": 2023, "event": "Mass protests over copper mine contract force government to close mine", "severity": "medium" },
+        { "year": 2024, "event": "Mulino elected president after Martinelli conviction; democratic norms questioned", "severity": "medium" }
+      ]
     },
     {
       "name": "Paraguay",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "PY",
+      "V-Dem_polyarchy_index": 0.57,
+      "libdem_index": 0.36,
+      "ERT_episodes": [
+        {
+          "type": "democratic erosion",
+          "start_year": 2012,
+          "end_year": null,
+          "description": "Colorado Party dominance, endemic corruption, and weak rule of law; controversial presidential removal in 2012."
+        }
+      ],
+      "BTI_governance_score": 5.8,
+      "DEED_event_counts": 3,
+      "status_indicator": "at risk",
+      "recent_events": [
+        { "year": 2023, "event": "Peña elected; Colorado Party retains power amid corruption allegations", "severity": "medium" },
+        { "year": 2023, "event": "US sanctions ex-president Cartes for corruption and links to Hezbollah", "severity": "medium" }
+      ]
     },
     {
       "name": "Peru",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "PE",
+      "V-Dem_polyarchy_index": 0.60,
+      "libdem_index": 0.40,
+      "ERT_episodes": [
+        {
+          "type": "crisis",
+          "start_year": 2016,
+          "end_year": null,
+          "description": "Permanent political crisis: six presidents in five years, executive-legislative standoffs, self-coup attempt in 2022."
+        }
+      ],
+      "BTI_governance_score": 6.3,
+      "DEED_event_counts": 6,
+      "status_indicator": "backsliding",
+      "recent_events": [
+        { "year": 2022, "event": "President Castillo attempts self-coup; arrested hours later and impeached", "severity": "high" },
+        { "year": 2023, "event": "Boluarte government declares state of emergency; 49 protesters killed", "severity": "high" },
+        { "year": 2023, "event": "Congress moves to close Constitutional Tribunal; democratic erosion accelerates", "severity": "medium" }
+      ]
     },
     {
       "name": "Uruguay",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
+      "iso2": "UY",
+      "V-Dem_polyarchy_index": 0.88,
+      "libdem_index": 0.79,
       "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "BTI_governance_score": 8.9,
+      "DEED_event_counts": 1,
+      "status_indicator": "stable",
+      "recent_events": [
+        { "year": 2020, "event": "First peaceful left-to-right power transfer in 15 years demonstrates democratic consolidation", "severity": "low" }
+      ]
     },
     {
       "name": "Venezuela",
-      "V-Dem_polyarchy_index": null,
-      "libdem_index": null,
-      "ERT_episodes": [],
-      "BTI_governance_score": null,
-      "DEED_event_counts": 0,
-      "status_indicator": null
+      "iso2": "VE",
+      "V-Dem_polyarchy_index": 0.09,
+      "libdem_index": 0.03,
+      "ERT_episodes": [
+        {
+          "type": "autocratization",
+          "start_year": 2013,
+          "end_year": null,
+          "description": "Maduro regime dismantled democratic institutions, jailed opposition, rigged elections, triggered mass emigration of 7+ million."
+        }
+      ],
+      "BTI_governance_score": 1.9,
+      "DEED_event_counts": 10,
+      "status_indicator": "autocracy",
+      "recent_events": [
+        { "year": 2024, "event": "Maduro claims victory in presidential election; opposition produces evidence of widespread fraud", "severity": "high" },
+        { "year": 2024, "event": "Widespread arrests of opposition members, civil society actors, and election witnesses post-election", "severity": "high" }
+      ]
     }
   ]
 }

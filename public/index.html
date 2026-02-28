@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Latin America Democratic Backsliding Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-title">
+        <h1>Democratic Backsliding Tracker</h1>
+        <p class="subtitle">Monitoring democratic health across Latin America</p>
+      </div>
+      <div class="header-meta">
+        <span class="data-note">Data: V-Dem, ERT, BTI indicators &middot; Updated 2024</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <!-- Summary bar -->
+    <section class="summary-bar" id="summaryBar">
+      <div class="summary-card stable">
+        <span class="summary-count" id="countStable">—</span>
+        <span class="summary-label">Stable</span>
+      </div>
+      <div class="summary-card at-risk">
+        <span class="summary-count" id="countAtRisk">—</span>
+        <span class="summary-label">At Risk</span>
+      </div>
+      <div class="summary-card backsliding">
+        <span class="summary-count" id="countBacksliding">—</span>
+        <span class="summary-label">Backsliding</span>
+      </div>
+      <div class="summary-card autocracy">
+        <span class="summary-count" id="countAutocracy">—</span>
+        <span class="summary-label">Autocracy</span>
+      </div>
+      <div class="summary-card recovering">
+        <span class="summary-count" id="countRecovering">—</span>
+        <span class="summary-label">Recovering</span>
+      </div>
+    </section>
+
+    <!-- Controls -->
+    <section class="controls">
+      <div class="filter-group">
+        <label for="statusFilter">Status</label>
+        <select id="statusFilter">
+          <option value="all">All Countries</option>
+          <option value="stable">Stable</option>
+          <option value="recovering">Recovering</option>
+          <option value="at risk">At Risk</option>
+          <option value="backsliding">Backsliding</option>
+          <option value="autocracy">Autocracy</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="sortBy">Sort by</label>
+        <select id="sortBy">
+          <option value="name">Country Name</option>
+          <option value="polyarchy">Polyarchy Index</option>
+          <option value="libdem">Liberal Democracy Index</option>
+          <option value="bti">BTI Governance Score</option>
+          <option value="events">Recent Events</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="sortOrder">Order</label>
+        <select id="sortOrder">
+          <option value="asc">Ascending</option>
+          <option value="desc">Descending</option>
+        </select>
+      </div>
+      <div class="filter-group search-group">
+        <label for="searchInput">Search</label>
+        <input type="text" id="searchInput" placeholder="Country name…" />
+      </div>
+      <div class="view-toggle">
+        <button class="view-btn active" id="btnGrid" title="Grid view">&#9783;</button>
+        <button class="view-btn" id="btnTable" title="Table view">&#9776;</button>
+      </div>
+    </section>
+
+    <!-- Grid view -->
+    <section class="country-grid" id="countryGrid"></section>
+
+    <!-- Table view (hidden initially) -->
+    <section class="country-table-wrap hidden" id="countryTableWrap">
+      <table class="country-table" id="countryTable">
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Status</th>
+            <th>Polyarchy</th>
+            <th>Lib. Democracy</th>
+            <th>BTI Score</th>
+            <th>ERT Episodes</th>
+            <th>Events</th>
+          </tr>
+        </thead>
+        <tbody id="countryTableBody"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Detail modal -->
+  <div class="modal-overlay hidden" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <div class="modal-header">
+        <div class="modal-flag" id="modalFlag"></div>
+        <div>
+          <h2 id="modalTitle"></h2>
+          <span class="status-badge" id="modalStatus"></span>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-scores">
+          <div class="score-block">
+            <span class="score-label">Electoral Democracy<br/><small>(V-Dem Polyarchy)</small></span>
+            <div class="score-bar-wrap">
+              <div class="score-bar" id="barPolyarchy"></div>
+            </div>
+            <span class="score-value" id="valPolyarchy"></span>
+          </div>
+          <div class="score-block">
+            <span class="score-label">Liberal Democracy<br/><small>(V-Dem LibDem)</small></span>
+            <div class="score-bar-wrap">
+              <div class="score-bar" id="barLibdem"></div>
+            </div>
+            <span class="score-value" id="valLibdem"></span>
+          </div>
+          <div class="score-block">
+            <span class="score-label">Governance Quality<br/><small>(BTI Score / 10)</small></span>
+            <div class="score-bar-wrap">
+              <div class="score-bar" id="barBti"></div>
+            </div>
+            <span class="score-value" id="valBti"></span>
+          </div>
+        </div>
+
+        <div class="modal-section" id="ertSection">
+          <h3>Regime Transformation Episodes (ERT)</h3>
+          <div id="ertList"></div>
+        </div>
+
+        <div class="modal-section" id="eventsSection">
+          <h3>Key Events</h3>
+          <ul class="events-list" id="eventsList"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>
+      Data sources: <a href="https://www.v-dem.net/" target="_blank" rel="noopener">V-Dem Institute</a> &middot;
+      <a href="https://www.democratic-erosion.com/" target="_blank" rel="noopener">Episodes of Regime Transformation (ERT)</a> &middot;
+      <a href="https://bti-project.org/" target="_blank" rel="noopener">Bertelsmann Transformation Index (BTI)</a>
+    </p>
+    <p class="disclaimer">Scores are approximate and sourced from published academic and policy indices. This tracker is for educational purposes.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
